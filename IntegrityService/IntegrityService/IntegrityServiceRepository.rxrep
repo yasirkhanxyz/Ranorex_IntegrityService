@@ -1,0 +1,201 @@
+﻿<repository
+id="6d08a953-4352-4f63-af0f-c4da43fc04cd"
+name="IntegrityServiceRepository"
+rxversion="7.0">
+	<codegen
+	classname="IntegrityServiceRepository"
+	namespace="IntegrityService">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="5a9fcdd2-ddc4-491c-8473-f77d9e53725d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d67516f9-2d64-43b4-aeb9-32eb40eee68b"
+		isrooted="True"
+		name="Explorer"
+		refpath="/form[@title='' and @processname='explorer' and @class='TaskListThumbnailWnd']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@processname='explorer' and @class='TaskListThumbnailWnd']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACCSURBVDhPY6AY/L5gf+H3RYf/6PjXBfsN/8/b
+C0CV4QYgxVZbn/1HBnCDgIYTNASuGA3/ueL1/9+Dyv//n0/Gif89m3yBAZsEKXi4GbD1yiZwjODD
+IDXIelAMwKYBG0bWQzsDkMXxyVFuACg1EVKESw6cEpEBsiKoEBzgk6MAMDAAAHhShcghofWfAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="739cb309-8e4a-43d4-853f-fabee63b36d2"
+		isrooted="True"
+		name="UntitledGoogleChrome"
+		refpath="/form[@title='Untitled - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="56a70cb7-f3c4-4e87-9ae4-749c7d4461b6"
+			name="IntermediateD3DWindow"
+			refimgid="db339c85-29e9-478a-a7b0-f78ca190569f"
+			refpath="/form[@title='Untitled - Google Chrome']/element[@class='Intermediate D3D Window']"
+			searchtimeout="30000ms">
+				/form[@title='Untitled - Google Chrome']/element[@class='Intermediate D3D Window']
+			</item>
+			<basepath>
+				/form[@title='Untitled - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="25473e6a-937c-40df-8b98-fe10027da50b"
+		isrooted="True"
+		name="WelcomeProMonitorInternetExplorer"
+		refpath="/form[@title='Welcome - ProMonitor - Internet Explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,nativewindow"
+			capname="container"
+			id="07e08ad3-675e-45c4-8f2e-7f451b98f81f"
+			name="Container40966"
+			refimgid="1e01a8be-820e-4132-9a34-71044977b1a7"
+			refpath="/form[@title~'^Welcome\ -\ ProMonitor\ -\ In']/element[@class='WorkerW']/container[@controlid='40966']"
+			searchtimeout="30000ms">
+				/form[@title~'^Welcome\ -\ ProMonitor\ -\ In']/?/?/container[@controlid='40966']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="9ccca334-a1bc-411d-965a-e0378d6c5459"
+			name="ControlBandClass"
+			refimgid="7c0ecb33-b2ab-47c2-b29e-a5c0f842d5ef"
+			refpath="/form[@title~'^Welcome\ -\ ProMonitor\ -\ In']/element[@class='WorkerW']/container/element[@class='ControlBandClass']"
+			searchtimeout="30000ms">
+				/form[@title~'^Welcome\ -\ ProMonitor\ -\ In']/element[@class='WorkerW']/?/?/element[@class='ControlBandClass']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="340b592d-8784-413c-80ea-0854725ee605"
+			name="CloseTabCtrlPlusW"
+			refimgid="8f88ab61-d86e-4cc0-9a94-efae89f57d9f"
+			refpath="/form[@title~'^Welcome\ -\ ProMonitor\ -\ In']/element[@class='WorkerW']/container/container/container/tabpagelist/tabpage/button[@accessiblename='Close Tab (Ctrl+W)']"
+			searchtimeout="30000ms">
+				/form[@title~'^Welcome\ -\ ProMonitor\ -\ In']//container[@class='TabBandClass']/?/?/tabpagelist[@accessiblename='Tab Row']/tabpage[@accessiblename='Welcome - ProMonitor']/button[@accessiblename='Close Tab (Ctrl+W)']
+			</item>
+			<basepath>
+				/form[@title~'^Welcome\ -\ ProMonitor\ -\ In']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a97540b1-e8aa-4085-b035-3aac8f33827f"
+		isrooted="True"
+		name="WelcomeProMonitor"
+		refpath="/dom[@domain='isstgweb2.promonitor.ca']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c54cf65a-6272-4b0d-92a4-2379d60a429d"
+			name="ContentFullHeight"
+			refimgid="35bc37fa-2896-401d-b3e6-4dc3dc207327"
+			refpath="/dom[@domain='isstgweb2.promonitor.ca']//body[#'Account_Landing']/div[2]/div"
+			searchtimeout="30000ms">
+				/dom[@domain='isstgweb2.promonitor.ca']//body[#'Account_Landing']/div[2]/div
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f39dfd58-6e6e-4d1b-bcf0-a643d8571bdf"
+			name="AccountLandingEmail"
+			refimgid="da43534e-9d41-420e-91da-ed6e6a9851d9"
+			refpath="/dom[@domain='isstgweb2.promonitor.ca']//input[#'Account_Landing_Email']"
+			searchtimeout="30000ms">
+				/dom[@domain='isstgweb2.promonitor.ca']//input[#'Account_Landing_Email']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="e6d289f8-7ff1-4e1d-ac76-9aecfb4ea82b"
+			name="HttpsIsstgweb2PromonitorCaImagesL"
+			refimgid="c0206b7d-8d81-4734-a4ad-4830a5ebcbc7"
+			refpath="/dom[@domain='isstgweb2.promonitor.ca']//body[#'Account_Landing']/div[1]/div/table/tbody/tr[2]/td[3]/img[@src='https://isstgweb2.promonitor.ca/Images/Landing/ProMonitor_Logo_dark-outline.png']"
+			searchtimeout="30000ms">
+				/dom[@domain='isstgweb2.promonitor.ca']//body[#'Account_Landing']/div[1]/?/?/table//img[@src='https://isstgweb2.promonitor.ca/Images/Landing/ProMonitor_Logo_dark-outline.png']
+			</item>
+			<basepath>
+				/dom[@domain='isstgweb2.promonitor.ca']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

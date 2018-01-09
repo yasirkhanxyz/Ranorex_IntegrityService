@@ -1,0 +1,48 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="app.config" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\RanorexProject\IntegrityService\IntegrityService\Utils\Helper.cs|666|4|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="app.config" />
+    <Element value="Main\Login\LoginPage.cs" />
+    <Element value="Main\Login\LandingPage.cs" />
+    <Element value="Utils\Preconditions.cs" />
+    <Element value="Utils\Helper.cs" />
+    <Element value="Main\Login\TestCase\Tc_Login.cs" />
+    <Element value="Main\Login\TestCase\Tc_CloseTab.cs" />
+    <Element value="Main\Login\TestCase\Tc_PrivacyLink.cs" />
+    <Element value="Program.cs" />
+    <Element value="IntegrityService.rxtst" />
+    <Element value="Main\Private_Screen\Private_Facility\Private_facilities_TestCases\Tc_FacilityDataDropdownDictionaryVerification.cs" />
+    <Element value="Main\Private_Screen\Private_Facility\PrivateFacilityData.cs" />
+    <Element value="Main\Private_Screen\Private_Facility\Private_facilities_TestCases\Tc_PrivateFacilitySearch_Autopopulation.cs" />
+    <Element value="Main\Private_Screen\Private_Facility\Private_facilities_TestCases\Tc_PrivateFacilityLandingSearch.cs" />
+    <Element value="Main\Hierarchy\TestCase\Tc_HierarchySearch_Autopopulation.cs" />
+    <Element value="Main\Hierarchy\HierarchyPage.cs" />
+    <Element value="Main\Private_Screen\Private_Pipeline\PrivatePipelineData.cs" />
+    <Element value="Main\Private_Screen\Private_Pipeline\Private_Pipeline_TestCases\Tc_PipelineDataVerification.cs" />
+    <Element value="Business\PipelineData.cs" />
+    <Element value="Main\Private_Screen\Private_Well\PrivateWellData.cs" />
+    <Element value="Main\Private_Screen\Private_Facility\Private_facilities_TestCases\Tc_FacilityDataVerification.cs" />
+    <Element value="Business\WellData.cs" />
+    <Element value="Main\Login\TestCase\Tc_CloseBrowser.cs" />
+    <Element value="Main\Private_Screen\Private_Well\Private_Well_TestCases\Tc_WellDataVerification.cs" />
+    <Element value="Business\FacilityData.cs" />
+    <Element value="Main\Private_Screen\Private_Pipeline\Private_Pipeline_TestCases\Tc_PrivatePipelineSearch_Autopopulation.cs" />
+    <Element value="Main\Private_Screen\Private_Well\Private_Well_TestCases\Tc_PrivateWellSearch_Autopopulation.cs" />
+    <Element value="Main\Private_Screen\Private_Well\Private_Well_TestCases\Tc_PrivateWellLandingSearch.cs" />
+    <Element value="Main\Private_Screen\Private_Pipeline\Private_Pipeline_TestCases\Tc_PrivatePipelineLandingSearch.cs" />
+    <Element value="Main\Login\TestCase\Tc_OpenBrowserInstance.cs" />
+    <Element value="Main\Hierarchy\TestCase\Tc_HierarchyGridData.cs" />
+    <Element value="Main\Hierarchy\TestCase\Tc_HierarchyLandingSearch.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

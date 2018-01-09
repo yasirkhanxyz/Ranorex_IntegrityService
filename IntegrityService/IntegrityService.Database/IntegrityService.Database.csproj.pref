@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Model\dtoPipelineClient.cs" />
+    <Element value="Operations\MappingPrivateScreenDB.cs" />
+    <Element value="Model\dtoWellClient.cs" />
+    <Element value="DBHelper.cs" />
+    <Element value="app.config" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

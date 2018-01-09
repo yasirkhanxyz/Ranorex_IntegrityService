@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{770011DB-28DC-467D-9C84-EE82FCD7100E}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>IntegrityService.Database</RootNamespace>
+    <AssemblyName>IntegrityService.Database</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>93a7883a-9b9d-440f-8972-4aa6434fc13f</id>
+    </Compile>
+    <Compile Include="DBHelper.cs">
+      <id>00732293-19bd-4ed1-a7e2-8531509838d0</id>
+    </Compile>
+    <Compile Include="Connection.cs">
+      <id>b3494a23-4f6f-4f12-97d4-0e13d6856429</id>
+    </Compile>
+    <Compile Include="Model\dtoFacilityClient.cs">
+      <id>5837fd77-3fd1-43b9-bcd6-862d0ec2439b</id>
+    </Compile>
+    <Compile Include="Model\dtoPipelineClient.cs">
+      <id>e7117fd4-8900-418d-b7ef-8eb3ccc9a6d9</id>
+    </Compile>
+    <Compile Include="Model\dtoWellClient.cs">
+      <id>c5c97dd1-9dd9-4a2c-aae5-a10bca7b52d6</id>
+    </Compile>
+    <Compile Include="Operations\HierarchyDB.cs">
+      <id>e0d555db-352d-44d3-876a-b819f4e9ff6a</id>
+    </Compile>
+    <Compile Include="Operations\MappingPrivateScreenDB.cs">
+      <id>60055a98-8522-4d83-817b-f6b3b89bfe5f</id>
+    </Compile>
+    <Compile Include="Operations\WellDB.cs">
+      <id>c1a96ae0-ddce-4a61-bb1d-93311cf3c139</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model">
+      <id>6b30bcb4-9743-4e35-ad3e-e730fe98b6da</id>
+    </Folder>
+    <Folder Include="Operations">
+      <id>833d895a-030e-4252-a758-9f3fbd1c18e2</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>c97d3d38-35ce-400c-ac88-a7d8f29f1a38</id>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

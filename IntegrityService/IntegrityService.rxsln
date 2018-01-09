@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 7.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9340AA76-7442-4311-8C35-D1A219B30FAC}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrityService", "IntegrityService\IntegrityService.csproj", "{92638B48-A3E2-4A4D-A4BD-9E42F2788073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrityService.Database", "IntegrityService.Database\IntegrityService.Database.csproj", "{770011DB-28DC-467D-9C84-EE82FCD7100E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92638B48-A3E2-4A4D-A4BD-9E42F2788073}.Debug|x86.Build.0 = Debug|x86
+		{92638B48-A3E2-4A4D-A4BD-9E42F2788073}.Debug|x86.ActiveCfg = Debug|x86
+		{92638B48-A3E2-4A4D-A4BD-9E42F2788073}.Release|x86.Build.0 = Release|x86
+		{92638B48-A3E2-4A4D-A4BD-9E42F2788073}.Release|x86.ActiveCfg = Release|x86
+		{770011DB-28DC-467D-9C84-EE82FCD7100E}.Debug|x86.Build.0 = Debug|x86
+		{770011DB-28DC-467D-9C84-EE82FCD7100E}.Debug|x86.ActiveCfg = Debug|x86
+		{770011DB-28DC-467D-9C84-EE82FCD7100E}.Release|x86.Build.0 = Release|x86
+		{770011DB-28DC-467D-9C84-EE82FCD7100E}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

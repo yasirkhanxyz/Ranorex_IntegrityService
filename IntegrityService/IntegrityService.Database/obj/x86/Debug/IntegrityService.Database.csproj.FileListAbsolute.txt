@@ -1,0 +1,6 @@
+C:\RanorexProject\IntegrityService\IntegrityService.Database\bin\Debug\IntegrityService.Database.dll.config
+C:\RanorexProject\IntegrityService\IntegrityService.Database\bin\Debug\IntegrityService.Database.dll
+C:\RanorexProject\IntegrityService\IntegrityService.Database\bin\Debug\IntegrityService.Database.pdb
+C:\RanorexProject\IntegrityService\IntegrityService.Database\obj\x86\Debug\IntegrityService.Database.csprojResolveAssemblyReference.cache
+C:\RanorexProject\IntegrityService\IntegrityService.Database\obj\x86\Debug\IntegrityService.Database.dll
+C:\RanorexProject\IntegrityService\IntegrityService.Database\obj\x86\Debug\IntegrityService.Database.pdb

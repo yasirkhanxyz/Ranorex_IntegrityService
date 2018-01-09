@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="IntegrityService"
+      id="f8c021b4-1147-43e4-8ba2-3aa7f555117b"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="IntegrityService"
+      id="f8c021b4-1147-43e4-8ba2-3aa7f555117b"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

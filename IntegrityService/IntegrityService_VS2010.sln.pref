@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{92638B48-A3E2-4A4D-A4BD-9E42F2788073}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution IntegrityService_VS2010[IntegrityService[Utils[]]]]&#xD;&#xA;Solution IntegrityService_VS2010\IntegrityService\Utils\Helper.cs&#xD;&#xA;Solution IntegrityService_VS2010" />
+  <StartupProject value="{92638B48-A3E2-4A4D-A4BD-9E42F2788073}" />
+</Properties>

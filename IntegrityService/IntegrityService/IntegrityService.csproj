@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{92638B48-A3E2-4A4D-A4BD-9E42F2788073}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>IntegrityService</RootNamespace>
+    <AssemblyName>IntegrityService</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>42e10530-b1fa-4dfe-8779-da80f10e55f4</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Controls">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex 7.0\Bin\Ranorex.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>28204fa3-4c3e-4102-b575-6cb271d29ca2</id>
+    </Compile>
+    <Compile Include="Business\FacilityData.cs">
+      <id>f1207451-99ea-4837-800a-d4521845c093</id>
+    </Compile>
+    <Compile Include="Business\PipelineData.cs">
+      <id>85d729b5-a38c-4a6e-a45a-e023b2dc4133</id>
+    </Compile>
+    <Compile Include="Business\WellData.cs">
+      <id>bf0d3fce-b78d-4205-a7c9-ced6a6cba20c</id>
+    </Compile>
+    <Compile Include="IntegrityServiceRepository.cs">
+      <BoundTo>42e10530-b1fa-4dfe-8779-da80f10e55f4</BoundTo>
+      <DependentUpon>IntegrityServiceRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>c3047ab5-9d9f-4f10-9de8-40c467780494</id>
+    </Compile>
+    <Compile Include="Main\Hierarchy\HierarchyPage.cs">
+      <id>7fca4c02-c540-4e9c-9e2a-5ea0cb2e0b48</id>
+    </Compile>
+    <Compile Include="Main\Hierarchy\TestCase\Tc_HierarchyGridData.cs">
+      <id>e606fbe4-1249-41ad-9ad1-8b4f71f949f9</id>
+    </Compile>
+    <Compile Include="Main\Hierarchy\TestCase\Tc_HierarchyLandingSearch.cs">
+      <id>483f71d7-9a3b-48a0-b274-b03868e8d92a</id>
+    </Compile>
+    <Compile Include="Main\Hierarchy\TestCase\Tc_HierarchySearch_Autopopulation.cs">
+      <id>630be764-d4dc-4887-95f9-232dfeae8a60</id>
+    </Compile>
+    <Compile Include="Main\Login\LandingPage.cs">
+      <id>c401fcf8-a592-481e-817f-ae4ca8af1f42</id>
+    </Compile>
+    <Compile Include="Main\Login\Landing_TestCases\Tc_ConnectionVerification.cs">
+      <id>51eb9585-7063-4a46-91a7-ad42eda3a88e</id>
+    </Compile>
+    <Compile Include="Main\Login\Landing_TestCases\Tc_Landing_Validation.cs">
+      <id>e5cb0d9a-07b5-4f55-8160-b7a4cd16de6a</id>
+    </Compile>
+    <Compile Include="Main\Login\LoginPage.cs">
+      <id>36395d6a-b2eb-44ff-9185-9eb580df28a6</id>
+    </Compile>
+    <Compile Include="Main\Login\TestCase\Tc_CantAccessAccount.cs">
+      <id>deb2e0f4-0e6a-45d7-908d-e9ebcaf451b9</id>
+    </Compile>
+    <Compile Include="Main\Login\TestCase\Tc_CloseBrowser.cs">
+      <id>6e19fe1c-ab0a-4620-aa35-bb8d9ab7176a</id>
+    </Compile>
+    <Compile Include="Main\Login\TestCase\Tc_CloseTab.cs">
+      <id>3261576f-3b10-4ab8-9ae1-a76d617dac5c</id>
+    </Compile>
+    <Compile Include="Main\Login\TestCase\Tc_LegalLink.cs">
+      <id>440fa340-8842-4918-9a9b-68cf716a03fa</id>
+    </Compile>
+    <Compile Include="Main\Login\TestCase\Tc_Login.cs">
+      <id>d9149131-2c06-48d9-b838-ab5d8372797d</id>
+    </Compile>
+    <Compile Include="Main\Login\TestCase\Tc_OpenBrowserInstance.cs">
+      <id>f1726b60-8744-4e5b-a41d-705663ce2e75</id>
+    </Compile>
+    <Compile Include="Main\Login\TestCase\Tc_PrivacyLink.cs">
+      <id>cee66fb8-c441-4769-9830-f9cf38557163</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Facility\PrivateFacilityData.cs">
+      <id>11fc98bf-2165-4895-b0ff-28c2e7d51bb8</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Facility\Private_facilities_TestCases\Tc_FacilityDataDropdownDictionaryVerification.cs">
+      <id>8ec742c8-79d1-445e-87b1-b1c441466e84</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Facility\Private_facilities_TestCases\Tc_FacilityDataVerification.cs">
+      <id>c5b9a0e1-8743-445d-b931-368ef5e1423c</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Facility\Private_facilities_TestCases\Tc_PrivateFacilityLandingSearch.cs">
+      <id>732fc792-dd41-4892-9802-576b47309a80</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Facility\Private_facilities_TestCases\Tc_PrivateFacilitySearch_Autopopulation.cs">
+      <id>006bc138-77bd-4738-939e-d0005b612728</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Pipeline\PrivatePipelineData.cs">
+      <id>dfac616f-d8fc-4c85-9374-c674e4d0650e</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Pipeline\Private_Pipeline_TestCases\Tc_PipelineDataVerification.cs">
+      <id>b5664061-0b43-455d-8df1-f460a317009f</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Pipeline\Private_Pipeline_TestCases\Tc_PrivatePipelineLandingSearch.cs">
+      <id>7753a061-87d4-4591-8878-abbea43617e9</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Pipeline\Private_Pipeline_TestCases\Tc_PrivatePipelineSearch_Autopopulation.cs">
+      <id>edb6c1b9-acd5-4735-9324-eb26a5312bb8</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Well\PrivateWellData.cs">
+      <id>e3ac0121-7a07-419d-9170-6a4597310611</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Well\Private_Well_TestCases\Tc_PrivateWellLandingSearch.cs">
+      <id>c0f944f7-f598-4272-93aa-08455783afb9</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Well\Private_Well_TestCases\Tc_PrivateWellSearch_Autopopulation.cs">
+      <id>9f184609-0f1a-4bc3-be94-6bad62070f5b</id>
+    </Compile>
+    <Compile Include="Main\Private_Screen\Private_Well\Private_Well_TestCases\Tc_WellDataVerification.cs">
+      <id>3b1fc7fa-b2d6-42c8-8976-f4348cd878e7</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>426afba5-cd52-4898-92fb-dffb25ada4b7</id>
+    </Compile>
+    <Compile Include="Utils\Helper.cs">
+      <id>419e276e-fed9-490b-9b6c-07bd615c1b11</id>
+    </Compile>
+    <Compile Include="Utils\Preconditions.cs">
+      <id>60ae89c1-c24b-4ceb-8b00-e0ea7bc6f49f</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>888bdc8f-883d-4520-9627-c5cdb2d88e36</id>
+    </None>
+    <None Include="IntegrityServiceRepository.rximg">
+      <BoundTo>42e10530-b1fa-4dfe-8779-da80f10e55f4</BoundTo>
+      <DependentUpon>IntegrityServiceRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>88c3280c-0a8c-4c2a-870e-190c59259f50</id>
+    </None>
+    <None Include="IntegrityServiceRepository.rxrep">
+      <id>42e10530-b1fa-4dfe-8779-da80f10e55f4</id>
+      <repoid>6d08a953-4352-4f63-af0f-c4da43fc04cd</repoid>
+      <reporootid>5a9fcdd2-ddc4-491c-8473-f77d9e53725d</reporootid>
+    </None>
+    <Content Include="Yasir_data.csv">
+      <BoundTo>9c40c6aa-69d7-4b00-9c22-7cab6c132d19</BoundTo>
+      <DependentUpon>IntegrityService.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ba8cb49b-be50-4065-aaaf-a85c5cdd580d</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IntegrityService.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>635b9341-78db-44d2-b2d4-78776b1cebfd</id>
+    </Content>
+    <Content Include="IntegrityService.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>9c40c6aa-69d7-4b00-9c22-7cab6c132d19</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IntegrityService.Database\IntegrityService.Database.csproj">
+      <Project>{770011DB-28DC-467D-9C84-EE82FCD7100E}</Project>
+      <Name>IntegrityService.Database</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Main">
+      <id>4cfa70da-46ea-4783-b16e-c7e8b71973b1</id>
+    </Folder>
+    <Folder Include="Main\Hierarchy\TestCase">
+      <id>d5c5bf6c-bb13-44d5-870d-1d8e28b06532</id>
+    </Folder>
+    <Folder Include="Main\Login">
+      <id>e8acdf40-a584-430e-8490-d5c7c1050e67</id>
+    </Folder>
+    <Folder Include="Main\Login\Landing_TestCases">
+      <id>26c23460-3495-4d76-9312-e63f6cca2b02</id>
+    </Folder>
+    <Folder Include="Main\Login\TestCase">
+      <id>9f59bd32-fdee-4438-9243-74dff2ee05a0</id>
+    </Folder>
+    <Folder Include="Main\Hierarchy">
+      <id>3ffddd4d-7a6b-46ba-ac6f-f3daeaeb1aae</id>
+    </Folder>
+    <Folder Include="Main\Private_Screen">
+      <id>841ab9bb-d170-475d-9544-a49bd7975f14</id>
+    </Folder>
+    <Folder Include="Main\Private_Screen\Private_Pipeline\Private_Pipeline_TestCases">
+      <id>7bd32bb5-8908-4da4-9c55-f1e4cc0eb59e</id>
+    </Folder>
+    <Folder Include="Main\Private_Screen\Private_Well">
+      <id>5cc4951a-da64-4a34-813b-3b4719ec6476</id>
+    </Folder>
+    <Folder Include="Main\Private_Screen\Private_Facility">
+      <id>d5f25930-40a7-44cf-a0d1-3eef103dd8ee</id>
+    </Folder>
+    <Folder Include="Main\Private_Screen\Private_Facility\Private_facilities_TestCases">
+      <id>8285d32b-441b-4ca5-9aec-47f7cf47b36d</id>
+    </Folder>
+    <Folder Include="Main\Private_Screen\Private_Pipeline">
+      <id>184ed487-993f-4e5a-9af7-5074a00e6d24</id>
+    </Folder>
+    <Folder Include="Main\Private_Screen\Private_Well">
+      <id>517f62db-1495-4365-9402-71a08d394f06</id>
+    </Folder>
+    <Folder Include="Main\Private_Screen\Private_Well\Private_Well_TestCases">
+      <id>5a319e24-81bd-42ff-a7a3-c331820b34e6</id>
+    </Folder>
+    <Folder Include="Business">
+      <id>2ee3d0b8-ddc8-4313-8284-1e0078c0677a</id>
+    </Folder>
+    <Folder Include="Utils">
+      <id>18ed3c99-d3c0-45a8-97a2-e7c825d4f4c2</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

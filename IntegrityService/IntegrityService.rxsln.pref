@@ -1,0 +1,9 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution IntegrityService[IntegrityService[Main[Login[]]Utils[]]]]&#xD;&#xA;Solution IntegrityService\IntegrityService\app.config&#xD;&#xA;Solution IntegrityService" />
+  <StartupProject value="{92638B48-A3E2-4A4D-A4BD-9E42F2788073}" />
+</Properties>

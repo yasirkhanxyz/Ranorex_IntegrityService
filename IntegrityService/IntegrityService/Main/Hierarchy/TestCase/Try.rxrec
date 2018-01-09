@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b143bd5a-c206-49a6-9b81-952792dd5079"
+mode="Global"
+rxversion="7.0">
+	<name>
+		Try
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Try"
+	namespace="IntegrityService.Main.Hierarchy.TestCase">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="6d08a953-4352-4f63-af0f-c4da43fc04cd"
+	name="IntegrityServiceRepository"
+	relativepath="..\..\..\IntegrityServiceRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="IntegrityServiceRepository"
+		namespace="IntegrityService">
+		</codegen>
+		<rootfolder
+		id="5a9fcdd2-ddc4-491c-8473-f77d9e53725d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Try.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

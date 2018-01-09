@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="211b303a627630e0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="ykhan"
+		host="RANOREX"
+		rxversion="7.0.1.0"
+		osversion="Microsoft Windows NT 6.2.9200.0 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1280x1024"
+		timestamp="7/17/2017 2:27:20 AM"
+		timestampiso="2017-07-17T08:27:20"
+		timeoutfactor="1"
+		module="Tc_FacilityDataDropdownDictionaryVerification">
+		<detail>
+			Tc_FacilityDataDropdownDictionaryVerification
+		</detail>
+		<errormessage>
+			Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at IntegrityService.Helper.WaitTillPageIsLoaded() in c:\RanorexProject\IntegrityService\IntegrityService\Utils\Helper.cs:line 537
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.015"
+			timeRelativeToTestModuleStartTime="00:01.015"
+			timeWallClock="02:27:21"
+			time="00:01.015"
+			level="Warn"
+			category="Data"
+			errimg=".\Tc_Facil_db22d80f_7bdd277f_trace.jpg"
+			errthumb=".\Tc_Facil_db22d80f_7bdd277f_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>PrivateFacilityCNQName, PrivateFacilityCCESName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.094"
+			timeRelativeToTestModuleStartTime="00:01.094"
+			timeWallClock="02:27:21"
+			time="00:01.094"
+			level="Error"
+			category="Module"
+			errimg=".\Tc_Facil_db22d80f_eb7a95ef_trace.jpg"
+			errthumb=".\Tc_Facil_db22d80f_eb7a95ef_trace_thumb.jpg">
+			<message>
+				Error Message : System.NullReferenceException: Object reference not set to an instance of an object.<br/>   at IntegrityService.Helper.WaitTillPageIsLoaded() in c:\RanorexProject\IntegrityService\IntegrityService\Utils\Helper.cs:line 537
+			</message>
+			<metainfo
+				stacktrace="   at IntegrityService.Helper.WaitTillPageIsLoaded() in c:\RanorexProject\IntegrityService\IntegrityService\Utils\Helper.cs:line 542
+   at IntegrityService.Tc_FacilityDataDropdownDictionaryVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\RanorexProject\IntegrityService\IntegrityService\Main\Private_Screen\Private_Facility\Private_facilities_TestCases\Tc_FacilityDataDropdownDictionaryVerification.cs:line 80
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)"
+				codefile="c:\RanorexProject\IntegrityService\IntegrityService\Utils\Helper.cs"
+				codeline="542"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
